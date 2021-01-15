@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
 
  s.platform     = :osx, '10.14'
  s.requires_arc = true
- s.vendored_frameworks = 'Framework/FBSimulatorControl.framework'
+ s.vendored_frameworks = 'Framework/FBSimulatorControl.framework', 'Framework/FBControlCore.framework'
  s.frameworks = 'Foundation', 'Cocoa', 'CoreVideo', 'CoreImage', 'CoreMedia'
 end
